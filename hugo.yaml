@@ -46,6 +46,22 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+  customCSS:
+    - styles.css
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
 
   footer:
     displayCopyright: false
