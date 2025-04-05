@@ -48,6 +48,8 @@ params:
     displayLogo: false
   customCSS:
     - styles.css
+  customJS:
+    - mathjax.js
 
 markup:
   highlight:

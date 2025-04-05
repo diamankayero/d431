@@ -1,10 +1,5 @@
 ---
 title: "Sommes de Riemann"
-output: 
-    theme: superstylin
-    mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    use_fontawesome: true
-css: ../styles.css
 ---
 
 ### Sommes de Riemann
