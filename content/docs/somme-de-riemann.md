@@ -1,16 +1,11 @@
 ---
 title: "Sommes de Riemann"
-css: styles.css
----
-
----
-title: "Sommes de Riemann"
 output: 
   cleanrmd::html_document_clean:
     theme: superstylin
     mathjax: default
     use_fontawesome: true
-    css: ../styles.css
+css: ../styles.css
 ---
 
 ### Sommes de Riemann
