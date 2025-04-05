@@ -51,20 +51,6 @@ params:
   customJS:
     - mathjax.js
 
-markup:
-  highlight:
-    noClasses: false
-  goldmark:
-    renderer:
-      unsafe: true
-    extensions:
-      passthrough:
-        delimiters:
-          block: [['\[', '\]'], ['$$', '$$']]
-          inline: [['\(', '\)']]
-        enable: true
-
-
   footer:
     displayCopyright: false
     displayPoweredBy: true
